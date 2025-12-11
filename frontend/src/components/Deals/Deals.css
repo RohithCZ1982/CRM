@@ -1,0 +1,43 @@
+.deals {
+  max-width: 1400px;
+}
+
+.stage-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.stage-prospecting {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.stage-qualification {
+  background: #cfe2ff;
+  color: #084298;
+}
+
+.stage-proposal {
+  background: #d1e7dd;
+  color: #0f5132;
+}
+
+.stage-negotiation {
+  background: #f8d7da;
+  color: #842029;
+}
+
+.stage-closed-won {
+  background: #d4edda;
+  color: #155724;
+}
+
+.stage-closed-lost {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+

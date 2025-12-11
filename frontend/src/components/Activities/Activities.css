@@ -1,0 +1,72 @@
+.activities {
+  max-width: 1400px;
+}
+
+.type-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.type-call {
+  background: #cfe2ff;
+  color: #084298;
+}
+
+.type-email {
+  background: #d1e7dd;
+  color: #0f5132;
+}
+
+.type-meeting {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.type-note {
+  background: #f8d7da;
+  color: #842029;
+}
+
+.description-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.status-toggle {
+  padding: 4px 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.status-toggle.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-toggle.completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-toggle:hover {
+  opacity: 0.8;
+}
+
+.completed {
+  opacity: 0.6;
+}
+
+.completed td {
+  text-decoration: line-through;
+}
+
+
