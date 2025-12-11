@@ -4,5 +4,5 @@ Flask-SQLAlchemy==3.1.1
 Flask-JWT-Extended==4.6.0
 python-dotenv==1.0.0
 Werkzeug==3.0.1
-# psycopg2-binary==2.9.9  # Only needed for PostgreSQL, install separately if needed
+psycopg2-binary==2.9.9  # Required for PostgreSQL on Render
 
